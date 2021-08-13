@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <booking>
+    <id>kB8Uz0</id>
+    <from>Chennai(MAA)</from>
+    <to>Bengaluru(BLR)</to>
+    <trip_type>One-way</trip_type>
+    <departure>2020-11-30</departure>
+    <return>NULL</return>
+    <airline>Vistara</airline>
+    <seats>3</seats>
+    <seat_type>Economy</seat_type>
+    <total>14040</total>
+    <status>Completed</status>
+  </booking>
+  <booking>
+    <id>a05aiH</id>
+    <from>Bengaluru(BLR)</from>
+    <to>Delhi(DEL)</to>
+    <trip_type>Round</trip_type>
+    <departure>2020-12-10</departure>
+    <return>2020-12-17</return>
+    <airline>Vistara</airline>
+    <seats>2</seats>
+    <seat_type>First Class</seat_type>
+    <total>30320</total>
+    <status>Ongoing</status>
+  </booking>
+  <booking>
+    <id>JUHkqs</id>
+    <from>Bengaluru(BLR)</from>
+    <to>Chennai(MAA)</to>
+    <trip_type>Round</trip_type>
+    <departure>2020-11-28</departure>
+    <return>2020-11-29</return>
+    <airline>IndiGo</airline>
+    <seats>1</seats>
+    <seat_type>First Class</seat_type>
+    <total>6360</total>
+    <status>Cancelled</status>
+  </booking>
+  <booking>
+    <id>Lv5o5d</id>
+    <from>Bengaluru(BLR)</from>
+    <to>Mumbai(BOM)</to>
+    <trip_type>Round</trip_type>
+    <departure>2020-11-26</departure>
+    <return>2020-11-27</return>
+    <airline>Jet Airways</airline>
+    <seats>1</seats>
+    <seat_type>First Class</seat_type>
+    <total>11380</total>
+    <status>Ongoing</status>
+  </booking>
+  <booking>
+    <id>ttgBB7</id>
+    <from>Kolkata(CCU)</from>
+    <to>Delhi(DEL)</to>
+    <trip_type>One-way</trip_type>
+    <departure>2020-11-28</departure>
+    <return>NULL</return>
+    <airline>Spicejet</airline>
+    <seats>2</seats>
+    <seat_type>Economy</seat_type>
+    <total>9116</total>
+    <status>Cancelled</status>
+  </booking>
+  <booking>
+    <id>uGWOry</id>
+    <from>Bengaluru(BLR)</from>
+    <to>Delhi(DEL)</to>
+    <trip_type>One-way</trip_type>
+    <departure>2020-11-28</departure>
+    <return>NULL</return>
+    <airline>Jet Airways</airline>
+    <seats>1</seats>
+    <seat_type>Economy</seat_type>
+    <total>6980</total>
+    <status>Completed</status>
+  </booking>
+  <booking>
+    <id>0S6KcJ</id>
+    <from>Kolkata(CCU)</from>
+    <to>Delhi(DEL)</to>
+    <trip_type>Round</trip_type>
+    <departure>2020-11-28</departure>
+    <return>2020-11-30</return>
+    <airline>Air India</airline>
+    <seats>1</seats>
+    <seat_type>First Class</seat_type>
+    <total>10816</total>
+    <status>Completed</status>
+  </booking>
+  <booking>
+    <id>lPPs5m</id>
+    <from>Chennai(MAA)</from>
+    <to>Bengaluru(BLR)</to>
+    <trip_type>One-way</trip_type>
+    <departure>2020-12-31</departure>
+    <return>NULL</return>
+    <airline>Air India</airline>
+    <seats>1</seats>
+    <seat_type>First Class</seat_type>
+    <total>3380</total>
+    <status>Active</status>
+  </booking>
+  <booking>
+    <id>WH5Zc7</id>
+    <from>Kolkata(CCU)</from>
+    <to>Bengaluru(BLR)</to>
+    <trip_type>Round</trip_type>
+    <departure>2020-12-31</departure>
+    <return>2021-01-15</return>
+    <airline>Jet Airways</airline>
+    <seats>2</seats>
+    <seat_type>First Class</seat_type>
+    <total>28488</total>
+    <status>Active</status>
+  </booking>
+</user>

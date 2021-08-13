@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home page</title>
+<style>
+div.logo{
+	position:center;
+	text-align:center;
+}
+div.menu{
+	margin: 0;
+	overflow: hidden;
+	background-color: #1B1C75;
+	padding:10px 10px;
+}
+div.menu a{
+	float: auto;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	font-size: 17px;
+}
+div.menu a:hover{
+	background-color: snow;
+	color: black;
+}
+div.menu a:active{
+	background-color: springgreen;
+	color: white;
+}
+div.block_head{
+	border: 2px solid black;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 200px;
+	margin-left: 200px;
+	color: white;
+	padding: 10px;
+	background-color: indianred;
+}
+
+div.block{
+	border: 2px solid black;
+	background-color: lavender;
+	margin-right: 200px;
+        margin-left: 200px;
+	padding: 10px;
+}
+</style>
+	</head>
+	<body style="background-color:antiquewhite">
+		<div class="logo">
+			<img src="logo4.jpg">
+			<h3>Levitate and Elevate<h3>
+		</div>
+		<div class="menu">
+			<a class="active" href="http://127.0.0.1:8080/home.html">Home</a>
+			<a href="#profile">Profile</a>
+			<a href="http://127.0.0.1/Your_Bookings.php">Booking Information</a>
+			<a href="http://127.0.0.1/cancel2.php">Booking Cancellation</a>
+			<a href="http://127.0.0.1/seatupgrade.php">Seat Upgradation</a>
+			<a href="#contact">Contact</a>
+			<a href="#aoutus">About us</a>
+		</div>
+		<div class="block_head">
+			<caption>Travel Details</caption>
+		</div>
+		<div class="block">
+			<form method="post" action="booking.jsp">
+				<b>From:</b>
+				<select name="from" required>
+					<option value="" disabled selected hidden>Select location:</option>
+					<option value="Bengaluru(BLR)">Bengaluru(BLR)</option>
+					<option value="Kolkata(CCU)">Kolkata(CCU)</option>
+					<option value="Chennai(MAA)">Chennai(MAA)</option>
+					<option value="Mumbai(BOM)">Mumbai(BOM)</option>
+					<option value="Delhi(DEL)">Delhi(DEL)</option>
+				</select>
+				<b><span style="position:relative">To:</span> </b>
+                                <select name="to" required>
+					<option value="" disabled selected hidden>Select destination:</option>
+                                        <option value="Bengaluru(BLR)">Bengaluru(BLR)</option>
+                                        <option value="Kolkata(CCU)">Kolkata(CCU)</option>
+                                        <option value="Chennai(MAA)">Chennai(MAA)</option>
+                                        <option value="Mumbai(BOM)">Mumbai(BOM)</option>
+                                        <option value="Delhi(DEL)">Delhi(DEL)</option>
+                                </select>
+				<hr>
+				<input type="radio" name="trip_type" value="One-way" required>One-Way Trip
+				<input type="radio" name="trip_type" value="Round">Round Trip
+				<hr>
+				<b>Departure:</b><input type="date" name="departure"  required>
+				<b>Return:</><input type="date" name="ret">
+				<hr>
+				<b>Airline:</b>
+				<select name="airline" required>
+                                        <option value="" disabled selected hidden>Choose preferred airline:</option>
+					<option value="Jet Airways">Jet Airways</option>
+                                        <option value="IndiGo">IndiGo</option>
+                                        <option value="Air India">Air India</option>
+                                        <option value="Spicejet">Spicejet</option>
+                                        <option value="Vistara">Vistara</option>
+				</select>
+				<hr>
+				<b>No of seats:</b>
+                                <select name="seats" required>
+                                        <option value="" disabled selected hidden>Select no. of seats:</option>
+					<option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+				</select>
+				<hr>
+				<input type="radio" name="seat_type" value="First Class" required>First Class
+                                <input type="radio" name="seat_type" value="Economy">Economy
+				<hr>
+				<div style="text-align: center; display: block">
+				<input type="submit" value="Submit"/>
+				</div>
+				<div style="text-align: center; margin: 3px">
+                                <input type="reset" value="Cancel"/>
+                                </div>
+			</form>
+		</div>
+	</body>
+</html>

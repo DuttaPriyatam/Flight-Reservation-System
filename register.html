@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Account Registration</title>
+<style>
+div.logo{
+        position:center;
+        text-align:center;
+}
+</style>
+	</head>
+	<body style="background-color:antiquewhite">
+                <div class="logo">
+                        <img src="logo4.jpg">
+                        <h3>Levitate and Elevate<h3>
+                </div>
+		<form method="get" action="/myApp/Registration">
+			<h1 style="text-align: center;">REGISTRATION</h1>
+			<b>First Name:</b><span style="color: red;">* </span><input type="text" placeholder="Enter First Name" size=25 name="fname" required/>
+			<b>Middle Name: </b><input type="text" placeholder="Enter Middle Name" size=25 name="mname"/>
+			<b>Last Name:</b><span style="color: red;">* </span><input type="text" placeholder="Enter Last Name" size=25 name="lname" required/>
+			<br/>
+			<hr/>
+			<b>Date of Birth:</b><span style="color: red;">* </span><br/><input type="date" name="DOB" required/>
+			<hr/>
+			<b>Email(Login Id):</b><span style="color: red;">* </span><br/><input type="email" placeholder="Enter valid email" name="Id" required/>
+			<hr/>
+			<b>Phone Number:</b><span style="color: red;">* </span><br/><input type="text" placeholder="Enter valid phone no." name="phno" required/>
+			<br/>
+			<hr/>
+			<b>Enter password</b>(must have 8 characters)<b>: </b><span style="color: red;">* </span><br/><input type="password" minlength=8 maxlength=50 name="pwd1"/>
+			<br/>
+			<b>Confirm password:</b><span style="color: red;">* </span><br/><input type="password" minlength=8 maxlength=50 name="pwd2"/>
+                        <br/>
+			<hr/>
+			<span style="color: red;">*Required Fields</span>
+			<br/>
+			<input type="checkbox" name="agreed" value="on" required/>I agree to the <a href="url">Terms of Service and Privacy Policy</a><br/>
+			<input type="submit" value="Submit"/>
+			<input type="reset" value="Cancel"/>
+		</form>
+	</body>
+</html>
+
